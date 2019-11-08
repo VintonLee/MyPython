@@ -65,3 +65,4 @@ if __name__ == "__main__":
         all_move = get_html(web_url)
         get_info(all_move)
         page += 25
+        
