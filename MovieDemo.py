@@ -36,7 +36,7 @@ def get_info(all_move):
             remark = remarks[0].get_text().replace("\u22ef", "")
         else:
             remark = "此影片没有评价"
-        print(remarks)
+        print(remark)
 
         # 评分
         scores = info.find_all("span", {"class": "rating_num"})
